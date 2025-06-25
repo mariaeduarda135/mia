@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oportunidades da Maria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --cor-fundo: #F0F4F8;
+      --cor-principal: #2C3E50;
+      --cor-destaque: #2980B9;
+      --cor-branco: #FFFFFF;
+    }
+
+    body {
+      font-family: 'Chakra Petch', sans-serif;
+      background-color: var(--cor-fundo);
+      color: var(--cor-principal);
+      padding: 30px;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: var(--cor-principal);
+    }
+
+    header p {
+      font-size: 18px;
+      color: var(--cor-destaque);
+      margin-top: 8px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      margin-bottom: 40px;
+      background: var(--cor-branco);
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: var(--cor-destaque);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    a {
+      color: var(--cor-destaque);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    button {
+      background-color: var(--cor-destaque);
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    button:hover {
+      background-color: #21689e;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Oportunidades da Maria</h1>
+    <p>Encontre vagas, dicas e apoio para conquistar o seu futuro!</p>
+  </header>
+
+  <section>
+    <h2>Sites de Vagas Confiáveis</h2>
+    <ul>
+      <li><a href="https://www.gupy.io" target="_blank">Gupy</a> – Plataforma de vagas em grandes empresas.</li>
+      <li><a href="https://www.infojobs.com.br" target="_blank">InfoJobs</a> – Ofertas em todo o Brasil.</li>
+      <li><a href="https://www.empregos.com.br" target="_blank">Empregos.com.br</a> – Diversas áreas e funções.</li>
+      <li><a href="https://www.linkedin.com/jobs" target="_blank">LinkedIn Vagas</a> – Vagas com networking profissional.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Precisa de ajuda?</h2>
+    <p>Se você quer ajuda para encontrar uma vaga ou montar seu currículo, envie uma mensagem abaixo. ❤️</p>
+
+    <!-- Formulário com campo adicional para tipo de trabalho -->
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail para resposta" required>
+      <textarea name="tipo-trabalho" placeholder="Qual tipo de trabalho você procura? (Ex: remoto, atendimento, meio período...)" required></textarea>
+      <textarea name="mensagem" placeholder="Escreva sua dúvida ou o que você precisa." required></textarea>
+      <button type="submit">Enviar mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Oportunidades da Maria • Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
